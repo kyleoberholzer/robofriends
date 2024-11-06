@@ -1,0 +1,16 @@
+
+.sega-logo {
+    font-family: 'Arial Black', sans-serif;
+    font-weight: bold;
+    font-size: 3em; /* Adjust size as needed */
+    color: #0033cc; /* SEGA blue */
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-shadow: 
+      -2px -2px 0 #fff, /* white outline effect */
+      2px -2px 0 #fff, 
+      -2px 2px 0 #fff, 
+      2px 2px 0 #fff,
+      -4px -4px 2px rgba(0, 0, 0, 0.2); /* slight shadow */
+  }
+
