@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import CardList from "../Components/CardList";
-
 import SearchBox from '../Components/SearchBox';
 import './App.css';
 import Scroll from '../Components/Scroll';
 
 function App () {
-
     const [robots, setRobots] = useState([]); //creating state for robots
     const [searchField, setSearchField] = useState(''); //creating state for searchfield
     const [count, setCount] = useState (0); // creates a state fo the button
@@ -33,7 +31,7 @@ function App () {
             <div className='tc'>
                 <h1 className = 'sega-logo'>Robofriends</h1>
                 <SearchBox searchChange={onSearchChange} />
-                <button onClick={() =>setCount(count+1)}>Click me</button>
+                <button onClick={() =>setCount(count+2)}>Click me</button>
                 <Scroll>
                 <CardList robots = { filteredRobots } />
                 </Scroll>
